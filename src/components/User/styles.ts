@@ -6,14 +6,14 @@ export const Card = styled.div`
   align-items: center;
   text-align: center;
   flex-direction: column;
-  margin: 5rem;
   padding: 2rem 1rem;
+  margin: 5rem 2.5rem 2.5rem 5rem;
   color: white;
   border-radius: 10px;
   background-color: #171717;
   width: 100%;
   max-width: 256px;
-  height: 100%;
+  height: 404px;
 
   h1 {
     color: red;
@@ -25,4 +25,8 @@ export const Icons = styled.div`
   align-items: center;
   margin-top: 1rem;
   gap: 0.5rem;
+
+  a {
+    color: red;
+  }
 `
